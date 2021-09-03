@@ -47,7 +47,7 @@ body {
     bottom: 0px;
     left: 0px;
     opacity: 0.89;
-    background-image: url("/img/main.jpg");
+    background-image: url("https://picsum.photos/2400/1600?random=26");
     background-position:top center;
     background-size: cover;
     background-repeat: no-repeat;
