@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*::before , *::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #495375;
+    font-family: 'Playfair Display', serif;
+}
+.navbar-name {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-name:hover {
+    color: #6e7cad ;
+    transition: all 0.4s;
+
+}
+
+.nav-link {
+    color: #495375;
+}
+.nav-link:hover {
+    color: #fff;
+    transition: all 0.4s;
+}
+.icon {
+    font-size: 25px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.89;
+    background-image: url("/img/main.jpg");
+    background-position:top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headtext h1{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+.headtext a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+.headtext a:hover {
+    color: #6e7cad;
+    transition: all 0.4s;
+}
+
+.social {
+    position: fixed;
+    right: 5rem;
+    top: 50%;
+  
+   
+    width: 25px;
+    z-index: 200;
+}
+.social .social-fixed {
+    list-style: none;
+    
+    margin: 0;
+}
+.social-fixed li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.social-fixed li a:hover {
+    color:#6e7cad;
+    transition: all 0.4s;
+}
+.about {
+    background-color: #495375;
+}
+.per {
+    border-radius: 10%;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #363f5ec2;
+}
+.per:hover {
+    transition: all 0.9s ease-in-out;
+    -ms-transform: rotate(8deg); /* IE 9 */
+    transform: rotate(8deg);
+}
+.pic {
+    border-radius: 10px ;
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.co a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 25px;
+    font-weight: 300;
+
+}
+.co a:hover {
+    color: #6e7cad;
+    transition: all 0.4s;
+}
+.ho {
+    overflow: hidden;
+    border-radius: 10px ;
+   
+}
+
+.ho img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    border-radius: 15px ;
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
